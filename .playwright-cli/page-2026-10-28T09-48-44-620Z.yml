@@ -1,0 +1,158 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - button "Side panel" [ref=e6] [cursor=pointer]:
+          - generic [ref=e8]: Side panel
+        - text: 
+        - generic [ref=e9]:
+          - button "Show notification window with no new notifications" [ref=e11] [cursor=pointer]:
+            - generic [ref=e12]: 
+          - button "Toggle messaging drawer" [ref=e14] [cursor=pointer]:
+            - generic [ref=e15]: 
+          - button "User menu" [ref=e20] [cursor=pointer]:
+            - img "Admin User" [ref=e24]: AU
+            - text: 
+          - generic [ref=e27]:
+            - generic [ref=e28]: Edit mode
+            - checkbox "Edit mode" [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - button "Open course index" [ref=e34] [cursor=pointer]:
+          - generic [ref=e35]: Open course index
+          - generic [ref=e36]: 
+        - banner [ref=e37]:
+          - 'heading "Astronomy: Earth, Moon, and Sky (OER module)" [level=1] [ref=e44]'
+        - navigation [ref=e46]:
+          - menubar [ref=e47]:
+            - menuitem "Course" [ref=e48] [cursor=pointer]
+            - menuitem "Settings" [ref=e49] [cursor=pointer]
+            - menuitem "More " [ref=e50] [cursor=pointer]
+        - main [ref=e54]:
+          - generic [ref=e57]:
+            - heading "Section outline" [level=2] [ref=e58]
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - generic [ref=e61]:
+                  - generic [ref=e62]:
+                    - generic [ref=e63]:
+                      - button "General" [expanded] [ref=e64] [cursor=pointer]:
+                        - generic "Collapse" [ref=e65]:
+                          - generic [ref=e66]: 
+                          - generic [ref=e67]: Collapse
+                        - text:  
+                      - heading "General" [level=3] [ref=e68]:
+                        - link "General" [ref=e69] [cursor=pointer]:
+                          - /url: https://185-233-45-239.sslip.io/course/section.php?id=6
+                    - button "Collapse all" [expanded] [ref=e71] [cursor=pointer]:
+                      - generic [ref=e72]: Collapse all
+                  - list [ref=e74]:
+                    - listitem [ref=e75]:
+                      - link "Announcements Forum" [ref=e82] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/forum/view.php?id=10
+                        - generic [ref=e83]:
+                          - text: Announcements
+                          - generic [ref=e84]: Forum
+                    - listitem [ref=e87]:
+                      - paragraph [ref=e93]:
+                        - link "Матеріали курсу офлайн / Course materials offline" [ref=e94] [cursor=pointer]:
+                          - /url: https://akudenko.github.io/oer-pwa/astronomy/
+              - listitem [ref=e95]:
+                - generic [ref=e96]:
+                  - generic [ref=e98]:
+                    - button "Chapter 4. Earth, Moon, and Sky" [expanded] [ref=e99] [cursor=pointer]:
+                      - generic "Collapse" [ref=e100]:
+                        - generic [ref=e101]: 
+                        - generic [ref=e102]: Collapse
+                      - text:  
+                    - heading "Chapter 4. Earth, Moon, and Sky" [level=3] [ref=e103]:
+                      - link "Chapter 4. Earth, Moon, and Sky" [ref=e104] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/course/section.php?id=7
+                  - list [ref=e106]:
+                    - listitem [ref=e107]:
+                      - link "4.0 Thinking Ahead Page" [ref=e114] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=11
+                        - generic [ref=e115]:
+                          - text: 4.0 Thinking Ahead
+                          - generic [ref=e116]: Page
+                    - listitem [ref=e117]:
+                      - link "4.1 Earth and Sky Page" [ref=e124] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=12
+                        - generic [ref=e125]:
+                          - text: 4.1 Earth and Sky
+                          - generic [ref=e126]: Page
+                    - listitem [ref=e127]:
+                      - link "4.2 The Seasons Page" [ref=e134] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=13
+                        - generic [ref=e135]:
+                          - text: 4.2 The Seasons
+                          - generic [ref=e136]: Page
+                    - listitem [ref=e137]:
+                      - link "4.3 Keeping Time Page" [ref=e144] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=14
+                        - generic [ref=e145]:
+                          - text: 4.3 Keeping Time
+                          - generic [ref=e146]: Page
+                    - listitem [ref=e147]:
+                      - link "4.4 The Calendar Page" [ref=e154] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=15
+                        - generic [ref=e155]:
+                          - text: 4.4 The Calendar
+                          - generic [ref=e156]: Page
+                    - listitem [ref=e157]:
+                      - link "4.5 Phases and Motions of the Moon Page" [ref=e164] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=16
+                        - generic [ref=e165]:
+                          - text: 4.5 Phases and Motions of the Moon
+                          - generic [ref=e166]: Page
+                    - listitem [ref=e167]:
+                      - link "4.6 Ocean Tides and the Moon Page" [ref=e174] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=17
+                        - generic [ref=e175]:
+                          - text: 4.6 Ocean Tides and the Moon
+                          - generic [ref=e176]: Page
+                    - listitem [ref=e177]:
+                      - link "4.7 Eclipses of the Sun and Moon Page" [ref=e184] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/mod/page/view.php?id=18
+                        - generic [ref=e185]:
+                          - text: 4.7 Eclipses of the Sun and Moon
+                          - generic [ref=e186]: Page
+      - contentinfo [ref=e187]:
+        - generic: "?"
+        - generic [ref=e188]:
+          - generic [ref=e189]:
+            - link "Documentation for this page" [ref=e191] [cursor=pointer]:
+              - /url: https://docs.moodle.org/405/en/course/view/topics
+              - generic [ref=e192]: 
+              - text: Documentation for this page
+            - link "Services and support Opens in new window" [ref=e194] [cursor=pointer]:
+              - /url: https://moodle.com/help/?utm_source=CTA-banner&utm_medium=platform&utm_campaign=name~Moodle4+cat~lms+mp~no
+              - generic [ref=e195]: 
+              - text: Services and support
+              - img "Opens in new window" [ref=e196]: 
+            - link "Contact site support" [ref=e198] [cursor=pointer]:
+              - /url: https://185-233-45-239.sslip.io/user/contactsitesupport.php
+              - generic [ref=e199]: 
+              - text: Contact site support
+          - generic [ref=e200]:
+            - generic [ref=e202]:
+              - text: You are logged in as
+              - link "Admin User" [ref=e203] [cursor=pointer]:
+                - /url: https://185-233-45-239.sslip.io/user/profile.php?id=2
+              - text: (
+              - link "Log out" [ref=e204] [cursor=pointer]:
+                - /url: https://185-233-45-239.sslip.io/login/logout.php?sesskey=lAmhynYHCP
+              - text: )
+            - link "Data retention summary" [ref=e207] [cursor=pointer]:
+              - /url: https://185-233-45-239.sslip.io/admin/tool/dataprivacy/summary.php
+            - link "Get the mobile app" [ref=e209] [cursor=pointer]:
+              - /url: https://download.moodle.org/mobile?version=2024100715.01&lang=en&iosappid=633359593&androidappid=com.moodle.moodlemobile
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - text: Powered by
+              - link "Moodle" [ref=e212] [cursor=pointer]:
+                - /url: https://moodle.com
+            - generic [ref=e213]: "Version 4.5.15+ (Build: 20261021)"

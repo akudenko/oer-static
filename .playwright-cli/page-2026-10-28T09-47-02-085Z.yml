@@ -1,0 +1,255 @@
+- generic [active] [ref=e1]:
+  - status
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#maincontent"
+    - navigation "Site navigation" [ref=e4]:
+      - generic [ref=e5]:
+        - link "oer" [ref=e6] [cursor=pointer]:
+          - /url: https://185-233-45-239.sslip.io/my/
+        - navigation [ref=e8]:
+          - menubar [ref=e9]:
+            - menuitem "Home" [ref=e10] [cursor=pointer]
+            - menuitem "Dashboard" [ref=e11] [cursor=pointer]
+            - menuitem "My courses" [ref=e12] [cursor=pointer]
+            - menuitem "Site administration" [ref=e13] [cursor=pointer]
+            - text: 
+        - generic [ref=e14]:
+          - button "Show notification window with no new notifications" [ref=e16] [cursor=pointer]:
+            - generic [ref=e17]: 
+          - button "Toggle messaging drawer" [ref=e19] [cursor=pointer]:
+            - generic [ref=e20]: 
+          - button "User menu" [ref=e25] [cursor=pointer]:
+            - img "Admin User" [ref=e29]: AU
+            - text: 
+          - generic [ref=e32]:
+            - generic [ref=e33]: Edit mode
+            - checkbox "Edit mode" [ref=e35]
+    - generic [ref=e36]:
+      - generic [ref=e37]:
+        - button "Open block drawer" [ref=e39] [cursor=pointer]:
+          - generic [ref=e40]: Open block drawer
+          - generic [ref=e42]: 
+          - text: 
+        - banner [ref=e43]:
+          - generic [ref=e46]:
+            - heading "Dashboard" [level=1] [ref=e50]
+            - generic [ref=e52]: Hi, Admin! 👋
+        - main [ref=e56]:
+          - region "Main content blocks" [ref=e58]:
+            - heading "Main content blocks" [level=2] [ref=e59]
+            - link "Skip Timeline" [ref=e60] [cursor=pointer]:
+              - /url: "#sb-2"
+            - region "Timeline" [ref=e61]:
+              - generic [ref=e62]:
+                - heading "Timeline" [level=3] [ref=e64]
+                - generic [ref=e66]:
+                  - generic [ref=e68]:
+                    - generic [ref=e70]:
+                      - button "Filter timeline by date" [ref=e71] [cursor=pointer]: Next 7 days 
+                      - text: 
+                    - generic [ref=e73]:
+                      - button "Sort timeline items" [ref=e74] [cursor=pointer]: Sort by dates 
+                      - text: 
+                    - search "Search by activity type or name" [ref=e78]:
+                      - generic [ref=e79]: Search by activity type or name
+                      - textbox "Search by activity type or name" [ref=e80]
+                      - text: 
+                  - generic [ref=e84]:
+                    - paragraph [ref=e89]: No activities require action
+                    - text: 
+            - link "Skip Calendar" [ref=e90] [cursor=pointer]:
+              - /url: "#sb-3"
+            - region "Calendar" [ref=e91]:
+              - generic [ref=e92]:
+                - heading "Calendar" [level=3] [ref=e94]
+                - generic [ref=e95]:
+                  - generic [ref=e97]:
+                    - generic [ref=e98]:
+                      - generic [ref=e99]: List of courses
+                      - combobox "List of courses" [ref=e100]:
+                        - option "All courses" [selected]
+                        - 'option "Astronomy: Earth, Moon, and Sky (OER module)"'
+                        - option "Test"
+                        - option "test 2"
+                      - button "New event" [ref=e101] [cursor=pointer]
+                    - generic [ref=e103]:
+                      - generic:
+                        - generic:
+                          - 'link "Previous month: September" [ref=e104] [cursor=pointer]':
+                            - /url: https://185-233-45-239.sslip.io/calendar/view.php?view=month&time=1788217200
+                            - text: ◀︎ September
+                          - heading "October 2026" [level=4] [ref=e105]
+                          - 'link "Next month: November" [ref=e106] [cursor=pointer]':
+                            - /url: https://185-233-45-239.sslip.io/calendar/view.php?view=month&time=1793491200
+                            - text: November ▶︎
+                      - text: 
+                      - table [ref=e107]:
+                        - rowgroup [ref=e108]:
+                          - row "Monday Tuesday Wednesday Thursday Friday Saturday Sunday" [ref=e109]:
+                            - columnheader "Monday" [ref=e110]:
+                              - generic [ref=e111]: Monday
+                              - text: Mon
+                            - columnheader "Tuesday" [ref=e112]:
+                              - generic [ref=e113]: Tuesday
+                              - text: Tue
+                            - columnheader "Wednesday" [ref=e114]:
+                              - generic [ref=e115]: Wednesday
+                              - text: Wed
+                            - columnheader "Thursday" [ref=e116]:
+                              - generic [ref=e117]: Thursday
+                              - text: Thu
+                            - columnheader "Friday" [ref=e118]:
+                              - generic [ref=e119]: Friday
+                              - text: Fri
+                            - columnheader "Saturday" [ref=e120]:
+                              - generic [ref=e121]: Saturday
+                              - text: Sat
+                            - columnheader "Sunday" [ref=e122]:
+                              - generic [ref=e123]: Sunday
+                              - text: Sun
+                        - rowgroup [ref=e124]:
+                          - row "No events, Thursday, 1 October No events, Friday, 2 October No events, Saturday, 3 October No events, Sunday, 4 October" [ref=e125]:
+                            - cell [ref=e126]
+                            - cell [ref=e127]
+                            - cell [ref=e128]
+                            - cell "No events, Thursday, 1 October" [ref=e129] [cursor=pointer]:
+                              - generic [ref=e130]:
+                                - generic [ref=e131]: No events, Thursday, 1 October
+                                - generic [ref=e134]: "1"
+                            - cell "No events, Friday, 2 October" [ref=e135] [cursor=pointer]:
+                              - generic [ref=e136]:
+                                - generic [ref=e137]: No events, Friday, 2 October
+                                - generic [ref=e140]: "2"
+                            - cell "No events, Saturday, 3 October" [ref=e141] [cursor=pointer]:
+                              - generic [ref=e142]:
+                                - generic [ref=e143]: No events, Saturday, 3 October
+                                - generic [ref=e146]: "3"
+                            - cell "No events, Sunday, 4 October" [ref=e147] [cursor=pointer]:
+                              - generic [ref=e148]:
+                                - generic [ref=e149]: No events, Sunday, 4 October
+                                - generic [ref=e152]: "4"
+                          - row "No events, Monday, 5 October No events, Tuesday, 6 October No events, Wednesday, 7 October No events, Thursday, 8 October No events, Friday, 9 October No events, Saturday, 10 October No events, Sunday, 11 October" [ref=e153]:
+                            - cell "No events, Monday, 5 October" [ref=e154] [cursor=pointer]:
+                              - generic [ref=e155]:
+                                - generic [ref=e156]: No events, Monday, 5 October
+                                - generic [ref=e159]: "5"
+                            - cell "No events, Tuesday, 6 October" [ref=e160] [cursor=pointer]:
+                              - generic [ref=e161]:
+                                - generic [ref=e162]: No events, Tuesday, 6 October
+                                - generic [ref=e165]: "6"
+                            - cell "No events, Wednesday, 7 October" [ref=e166] [cursor=pointer]:
+                              - generic [ref=e167]:
+                                - generic [ref=e168]: No events, Wednesday, 7 October
+                                - generic [ref=e171]: "7"
+                            - cell "No events, Thursday, 8 October" [ref=e172] [cursor=pointer]:
+                              - generic [ref=e173]:
+                                - generic [ref=e174]: No events, Thursday, 8 October
+                                - generic [ref=e177]: "8"
+                            - cell "No events, Friday, 9 October" [ref=e178] [cursor=pointer]:
+                              - generic [ref=e179]:
+                                - generic [ref=e180]: No events, Friday, 9 October
+                                - generic [ref=e183]: "9"
+                            - cell "No events, Saturday, 10 October" [ref=e184] [cursor=pointer]:
+                              - generic [ref=e185]:
+                                - generic [ref=e186]: No events, Saturday, 10 October
+                                - generic [ref=e189]: "10"
+                            - cell "No events, Sunday, 11 October" [ref=e190] [cursor=pointer]:
+                              - generic [ref=e191]:
+                                - generic [ref=e192]: No events, Sunday, 11 October
+                                - generic [ref=e195]: "11"
+                          - row "No events, Monday, 12 October No events, Tuesday, 13 October No events, Wednesday, 14 October No events, Thursday, 15 October No events, Friday, 16 October No events, Saturday, 17 October No events, Sunday, 18 October" [ref=e196]:
+                            - cell "No events, Monday, 12 October" [ref=e197] [cursor=pointer]:
+                              - generic [ref=e198]:
+                                - generic [ref=e199]: No events, Monday, 12 October
+                                - generic [ref=e202]: "12"
+                            - cell "No events, Tuesday, 13 October" [ref=e203] [cursor=pointer]:
+                              - generic [ref=e204]:
+                                - generic [ref=e205]: No events, Tuesday, 13 October
+                                - generic [ref=e208]: "13"
+                            - cell "No events, Wednesday, 14 October" [ref=e209] [cursor=pointer]:
+                              - generic [ref=e210]:
+                                - generic [ref=e211]: No events, Wednesday, 14 October
+                                - generic [ref=e214]: "14"
+                            - cell "No events, Thursday, 15 October" [ref=e215] [cursor=pointer]:
+                              - generic [ref=e216]:
+                                - generic [ref=e217]: No events, Thursday, 15 October
+                                - generic [ref=e220]: "15"
+                            - cell "No events, Friday, 16 October" [ref=e221] [cursor=pointer]:
+                              - generic [ref=e222]:
+                                - generic [ref=e223]: No events, Friday, 16 October
+                                - generic [ref=e226]: "16"
+                            - cell "No events, Saturday, 17 October" [ref=e227] [cursor=pointer]:
+                              - generic [ref=e228]:
+                                - generic [ref=e229]: No events, Saturday, 17 October
+                                - generic [ref=e232]: "17"
+                            - cell "No events, Sunday, 18 October" [ref=e233] [cursor=pointer]:
+                              - generic [ref=e234]:
+                                - generic [ref=e235]: No events, Sunday, 18 October
+                                - generic [ref=e238]: "18"
+                          - row "No events, Monday, 19 October No events, Tuesday, 20 October No events, Wednesday, 21 October No events, Thursday, 22 October No events, Friday, 23 October No events, Saturday, 24 October No events, Sunday, 25 October" [ref=e239]:
+                            - cell "No events, Monday, 19 October" [ref=e240] [cursor=pointer]:
+                              - generic [ref=e241]:
+                                - generic [ref=e242]: No events, Monday, 19 October
+                                - generic [ref=e245]: "19"
+                            - cell "No events, Tuesday, 20 October" [ref=e246] [cursor=pointer]:
+                              - generic [ref=e247]:
+                                - generic [ref=e248]: No events, Tuesday, 20 October
+                                - generic [ref=e251]: "20"
+                            - cell "No events, Wednesday, 21 October" [ref=e252] [cursor=pointer]:
+                              - generic [ref=e253]:
+                                - generic [ref=e254]: No events, Wednesday, 21 October
+                                - generic [ref=e257]: "21"
+                            - cell "No events, Thursday, 22 October" [ref=e258] [cursor=pointer]:
+                              - generic [ref=e259]:
+                                - generic [ref=e260]: No events, Thursday, 22 October
+                                - generic [ref=e263]: "22"
+                            - cell "No events, Friday, 23 October" [ref=e264] [cursor=pointer]:
+                              - generic [ref=e265]:
+                                - generic [ref=e266]: No events, Friday, 23 October
+                                - generic [ref=e269]: "23"
+                            - cell "No events, Saturday, 24 October" [ref=e270] [cursor=pointer]:
+                              - generic [ref=e271]:
+                                - generic [ref=e272]: No events, Saturday, 24 October
+                                - generic [ref=e275]: "24"
+                            - cell "No events, Sunday, 25 October" [ref=e276] [cursor=pointer]:
+                              - generic [ref=e277]:
+                                - generic [ref=e278]: No events, Sunday, 25 October
+                                - generic [ref=e281]: "25"
+                          - row "No events, Monday, 26 October No events, Tuesday, 27 October No events, Wednesday, 28 October No events, Thursday, 29 October No events, Friday, 30 October No events, Saturday, 31 October" [ref=e282]:
+                            - cell "No events, Monday, 26 October" [ref=e283] [cursor=pointer]:
+                              - generic [ref=e284]:
+                                - generic [ref=e285]: No events, Monday, 26 October
+                                - generic [ref=e288]: "26"
+                            - cell "No events, Tuesday, 27 October" [ref=e289] [cursor=pointer]:
+                              - generic [ref=e290]:
+                                - generic [ref=e291]: No events, Tuesday, 27 October
+                                - generic [ref=e294]: "27"
+                            - cell "No events, Wednesday, 28 October" [ref=e295] [cursor=pointer]:
+                              - generic [ref=e296]:
+                                - generic [ref=e297]: No events, Wednesday, 28 October
+                                - generic [ref=e300]: "28"
+                            - cell "No events, Thursday, 29 October" [ref=e301] [cursor=pointer]:
+                              - generic [ref=e302]:
+                                - generic [ref=e303]: No events, Thursday, 29 October
+                                - generic [ref=e306]: "29"
+                            - cell "No events, Friday, 30 October" [ref=e307] [cursor=pointer]:
+                              - generic [ref=e308]:
+                                - generic [ref=e309]: No events, Friday, 30 October
+                                - generic [ref=e312]: "30"
+                            - cell "No events, Saturday, 31 October" [ref=e313] [cursor=pointer]:
+                              - generic [ref=e314]:
+                                - generic [ref=e315]: No events, Saturday, 31 October
+                                - generic [ref=e318]: "31"
+                            - cell [ref=e319]
+                  - generic [ref=e321]:
+                    - generic [ref=e322]:
+                      - link "Full calendar" [ref=e323] [cursor=pointer]:
+                        - /url: https://185-233-45-239.sslip.io/calendar/view.php?view=month&time=1793180820&course=1
+                      - text: •
+                    - link "Import or export calendars" [ref=e325] [cursor=pointer]:
+                      - /url: https://185-233-45-239.sslip.io/calendar/managesubscriptions.php?course=1
+      - contentinfo:
+        - button "Show footer" [ref=e326] [cursor=pointer]:
+          - generic [ref=e327]: "?"
+        - text:    
