@@ -1,0 +1,19 @@
+:root{--fg:#1b1f24;--muted:#5b6470;--bg:#fff;--line:#e3e6ea;--acc:#1f5fa8;--ok:#1d7a46}
+@media (prefers-color-scheme:dark){:root{--fg:#e8eaed;--muted:#a3abb5;--bg:#16191d;--line:#2c3138;--acc:#7fb0ef;--ok:#6fcf97}}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header,main,footer{max-width:46rem;margin:0 auto;padding:0 1rem}
+header{padding-top:.8rem;padding-bottom:.6rem;border-bottom:1px solid var(--line);font-size:.92rem}
+header a{color:var(--acc);text-decoration:none}
+#offline-status{color:var(--muted);font-size:.85rem;margin-top:.2rem}
+#offline-status[data-complete="1"]{color:var(--ok)}
+main{padding-top:1rem;padding-bottom:2rem}
+article a{color:var(--acc)}
+article img,article video,article iframe{max-width:100%;height:auto}
+article table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}
+article td,article th{border:1px solid var(--line);padding:.3rem .5rem}
+nav.pager{display:flex;justify-content:space-between;gap:1rem;margin-top:2rem;padding-top:1rem;border-top:1px solid var(--line)}
+nav.pager a{color:var(--acc);max-width:48%}
+nav.pager a[rel=next]{text-align:right}
+ol.lessons{padding-left:1.4rem}ol.lessons li{margin:.35rem 0}ol.lessons a{color:var(--acc)}
+footer{color:var(--muted);font-size:.82rem;padding-bottom:2rem;border-top:1px solid var(--line);padding-top:.8rem}
